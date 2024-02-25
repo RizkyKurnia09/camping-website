@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CAMPSFUNZ</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- logo title -->
+    <link rel="icon" href="./Asset/Logo CampsFunz.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <section id="navbar">
+      <nav class="navbar navbar-expand-lg bg-transparent position-fixed w-100">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="Asset/Logo.svg" alt="Logo" style="width: 150px" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto gap-4">
+              <li class="nav-item">
+                <a
+                  class="nav-link active fw-medium"
+                  aria-current="page"
+                  href="#hero"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#explore">Explore</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- Navbar end -->
+
+    <!-- HERO SECTION -->
+    <section id="hero">
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col-md-6 my-auto">
+            <div>
+              <h1>Unlock the Wilderness: Your Ultimate Guide to Adventure</h1>
+              <p>
+                Explore our camp website for a treasure trove of information,
+                guiding you towards unforgettable outdoor experiences. From
+                hidden gems to must-know tips, embark on a journey of discovery
+                with us!
+              </p>
+              <button>Explore Site</button>
+            </div>
+          </div>
+          <div class="col-6 text-end">
+            <div>
+              <img src="Asset/Hero image.png" alt="Tenda" class="" />
+            </div>
+          </div>
+        </div>
+        <div class="row information-hero">
+          <div class="col-6 d-flex gap-5 align-items-center mt-5">
+            <div>
+              <div
+                class="d-flex flex-column ps-2"
+                style="border-left: 4px solid var(--secondary)"
+              >
+                <span class="fw-bold">5000+</span>
+                <span>Campsite Locations</span>
+              </div>
+            </div>
+            <div>
+              <div
+                class="d-flex flex-column ps-2"
+                style="border-left: 4px solid var(--secondary)"
+              >
+                <span class="fw-bold">100K+</span>
+                <span>Satisfied Campers</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-6 d-flex flex-column justify-content-center p-2 mt-5"
+            style="border: 2px solid var(--secondary)"
+          >
+            <h2
+              class="fw-bold"
+              style="color: var(--secondary); font-size: 16px"
+            >
+              Camping
+            </h2>
+            <p class="mb-0" style="color: #4b554e; font-size: 14px">
+              Embrace the simplicity of nature, disconnect from the chaos, and
+              rediscover the essentials. Experience the joy of adventure as you
+              go.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- HERO SECTION END -->
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-6">
+            <img src="Asset/About-img.png" alt="Campfire" />
+          </div>
+          <div class="col-6 d-flex flex-column justify-content-center">
+            <h2 class="mb-4">About Us</h2>
+            <p>
+              Explore our camp website for a treasure trove of information,
+              guiding you towards unforgettable outdoor experiences. From hidden
+              gems to must-know tips, Explore our camp website for a treasure
+              trove of information, guiding you towards unforgettable outdoor
+              experiences. From hidden gems to must-know tips.
+            </p>
+            <button class="mt-5">Read More...</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT SECTION END -->
+
+    <!-- Explore Section -->
+    <section id="explore">
+      <div class="container-fluid position-relative h-100">
+        <div class="container position-relative">
+          <div class="row">
+            <div class="col-12 text-center mt-5">
+              <h1>Popular <span>Camp Site</span> Locations</h1>
+            </div>
+          </div>
+          <div class="row" style="margin-top: 30px">
+            <div class="col-md-4 py-3 py-md-0 position-relative">
+              <div class="card">
+                <img src="Asset/card-explore-1.jpg" alt="" />
+                <div
+                  class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100"
+                >
+                  <div
+                    class="position-absolute top-50 start-50 translate-middle text-center w-100"
+                  >
+                    <h5>Pine Forest</h5>
+                    <p>Rome - Italy</p>
+                    <button>See Detail</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="Asset/card-explore-2.jpg" alt="" />
+                <div
+                  class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100"
+                >
+                  <div
+                    class="position-absolute top-50 start-50 translate-middle text-center w-100"
+                  >
+                    <h5>Lake Camping</h5>
+                    <p>Paris - France</p>
+                    <button>See Detail</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="Asset/card-explore-3.jpg" alt="" />
+                <div
+                  class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100"
+                >
+                  <div
+                    class="position-absolute top-50 start-50 translate-middle text-center w-100"
+                  >
+                    <h5>Night Camping</h5>
+                    <p>Barcelona - Spain</p>
+                    <button>See Detail</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row" style="margin-top: 30px">
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="Asset/card-explore-4.jpg" alt="" />
+                <div
+                  class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100"
+                >
+                  <div
+                    class="position-absolute top-50 start-50 translate-middle text-center w-100"
+                  >
+                    <h5>Birch Forest</h5>
+                    <p>London - England</p>
+                    <button>See Detail</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="Asset/card-explore-5.jpg" alt="" />
+                <div
+                  class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100"
+                >
+                  <div
+                    class="position-absolute top-50 start-50 translate-middle text-center w-100"
+                  >
+                    <h5>Nature Camping</h5>
+                    <p>Tokyo - Japan</p>
+                    <button>See Detail</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="Asset/card-explore-6.jpg" alt="" />
+                <div
+                  class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100"
+                >
+                  <div
+                    class="position-absolute top-50 start-50 translate-middle text-center w-100"
+                  >
+                    <h5>Mountain Camping</h5>
+                    <p>Moscow - Russia</p>
+                    <button>See Detail</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Explore Section END -->
+
+    <!-- Footer -->
+    <footer id="footer" class="d-flex align-items-center position-relative">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-md-7 d-flex align-items-center justify-content-lg-start justify-content-center"
+            >
+              <img src="Asset/logo.png" alt="" />
+              <a href="#" class="ms-3">CampsFunz</a>
+            </div>
+            <div
+              class="col-md-5 d-flex justify-content-evenly justify-content-center"
+            >
+              <a href="#hero">Home</a>
+              <a href="#about">About Us</a>
+              <a href="#explore">Explore</a>
+              <a href="#contact">Contact</a>
+            </div>
+            <img class="mt-5" src="Asset/Social-media.svg" alt="" />
+          </div>
+          <!-- <div class="row"> -->
+          <!-- <div class="col-12 social mt-4"> -->
+          <!-- </div> -->
+          <!-- </div> -->
+          <div
+            class="row position-absolute copyright start-50 translate-middle"
+          >
+            <div class="col-12 text-center">
+              <p>Copyright by CampsFunz. All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="app.js"></script>
+  </body>
+</html>
